@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWARNANDHRA COLLEGE OF ENGINEERING AND TECHNOLOGY </title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!----- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    ----->
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+ 
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar
+{
+    display: flex;
+    align-items:center;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #e2952b;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    color: orangered; 
+    
+}
+nav ul li a{
+    display: inline-block;
+    margin-right: 10px;
+    color: black; 
+    font-size: 170%;
+    
+}
+        
+       
+
+.detels{
+    display: flex;
+    align-items:center;
+    padding: 5px;
+            
+}      
+
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: none;
+}
+ 
+        h4{
+            
+            color: blue;
+            text-align: center;
+        }        
+.text{
+          text-align: center;
+          color: yellow;
+          margin-top: 10%;
+          background-color: darkorange;
+        
+            
+}
+.main{
+            
+       
+      text-align: center;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+            
+}
+.campes{
+            
+    background-color: lightblue;
+}        
+        
+.placement img{
+            
+            
+     margin-left: 30px;
+     margin-right: 30px;
+    
+     margin-top: 10px;
+     margin-bottom: 10px;
+}        
+        
+
+.btn
+{
+    display: inline-block;
+    border-style: hidden;
+    background: black;
+    color: #fff;
+    padding: 8px 30px;
+    margin:  20px 0;
+    border-radius: 10px;
+    transition: background 0.5s;
+    
+}
+        
+.btn:hover{
+    background: green;
+
+}        
+        
+
+.footer{
+            
+      padding-top: 2%;      
+    text-align: center;
+    color:aliceblue;
+    background-color: black;
+    flex: 1;
+}
+.footer-col-2{
+            
+             flex: 1;
+    text-align: center;
+       
+        
+        }     
+.footer-col-2 ul
+{
+      
+     display: inline-block;
+    list-style-type: none;
+}
+        
+ .footer-col-2 ul li
+{
+            
+    display: inline-block;
+    margin-right: 10px;
+}
+        
+@media only screen and ( max-width: 800px )
+{
+
+    nav ul{
+
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #334;
+        width: 100%;
+        margin-top: 20px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li{
+
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px ;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{
+        color:white;
+        text-align: start;
+
+        
+
+    }
+    
+        
+    
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        
+    }
+}        
+        
+        
+</style>
+    
+</head>
+    
+<body>
+     
+    <div class="bg">
+    <div class="header">    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://swarnandhra.ac.in/"><img src="LOGO.jpg" width="70px" height="70px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a style="text-decoration:none" href="">HOME</a></li>
+                    <li><a style="text-decoration:none" href="">Question Papers</a></li>
+                    <li><a style="text-decoration:none" href="">Materials</a></li>
+                    <li><a style="text-decoration:none" href="">Results</a></li>
+                    <li><a style="text-decoration:none" href="">LOGIN</a></li>
+                </ul>
+            </nav>
+            
+            <img src="menu.png" class="menu-icon"
+             onclick="menutoggle()">
+            <div class="logo">
+                <a href="http://www.swarnandhra.edu.in/"><img src="logo-site.jpg" width="70px" height="70px"></a>
+            </div>
+            
+            
+        </div>
+        
+        </div>
+        
+    </div>
+        <h4 >Swarnandhra College Of Engineering And Technology , Seetharampuram , Narsapur , West Godavari(WG) , Andhra Pradesh-534280</h4>
+         <marquee  style="font-family:Book Antiqua; color: #FFFFFF;">
+                <div onmouseover="document.getElementById(&#39;scroll_news&#39;).continue;">
+                    
+                 </div>
+              </marquee>    
+        <hr>
+              
+           
+        
+            <div class="main">
+                <h1> SWARNANDHRA COLLEGE OF ENGINEERING AND TECHNOLOGY <br> (Autonomous) </h1>
+                  <a style="text-decoration:none" href="https://swarnandhra.ac.in/" class="btn"> &#8594;SCET </a>
+                  <a style="text-decoration:none" href="http://www.swarnandhra.edu.in/" class="btn"> &#8594; SIET </a>
+             </div>
+        
+       
+          
+              
+        
+          <div class="campes">
+             <marquee  style="font-family:Book Antiqua; color: #FFFFFF;">
+                <div onmouseover="document.getElementById(&#39;scroll_news&#39;).stop();">
+                  <h4 class="placement">
+                      <img class="placementimages" src="campaes-infosys.jpg" width="100px" height="70px">
+                      <img class="placementimages"  src="campes-Capgemini2.png" width="110p" height="70px">
+                      <img class="placementimages"  src="campes-cisco2.png" width="120px" height="70px">
+                      <img class="placementimages"  src="campes-Deloitte-symbol2.jpg" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-hcl2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-tata2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-wipro2.png" width="110px" height="70px">
+                      
+                      <img class="placementimages" src="campaes-infosys.jpg" width="100px" height="70px">
+                      <img class="placementimages"  src="campes-Capgemini2.png" width="110p" height="70px">
+                      <img class="placementimages"  src="campes-cisco2.png" width="120px" height="70px">
+                      <img class="placementimages"  src="campes-Deloitte-symbol2.jpg" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-hcl2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-tata2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-wipro2.png" width="110px" height="70px">
+                      
+                      
+                      <img class="placementimages" src="campaes-infosys.jpg" width="100px" height="70px">
+                      <img class="placementimages"  src="campes-Capgemini2.png" width="110p" height="70px">
+                      <img class="placementimages"  src="campes-cisco2.png" width="120px" height="70px">
+                      <img class="placementimages"  src="campes-Deloitte-symbol2.jpg" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-hcl2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-tata2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-wipro2.png" width="110px" height="70px">
+                      
+                       <img class="placementimages" src="campaes-infosys.jpg" width="100px" height="70px">
+                      <img class="placementimages"  src="campes-Capgemini2.png" width="110p" height="70px">
+                      <img class="placementimages"  src="campes-cisco2.png" width="120px" height="70px">
+                      <img class="placementimages"  src="campes-Deloitte-symbol2.jpg" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-hcl2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-tata2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-wipro2.png" width="110px" height="70px">
+                      
+                       <img class="placementimages" src="campaes-infosys.jpg" width="100px" height="70px">
+                      <img class="placementimages"  src="campes-Capgemini2.png" width="110p" height="70px">
+                      <img class="placementimages"  src="campes-cisco2.png" width="120px" height="70px">
+                      <img class="placementimages"  src="campes-Deloitte-symbol2.jpg" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-hcl2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-tata2.png" width="110px" height="70px">
+                      <img class="placementimages"  src="campes-wipro2.png" width="110px" height="70px">
+                     
+                  </h4>
+                </div>
+              </marquee>
+                </div> 
+        
+      <!---  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> ---->
+        
+  
+        
+    
+    
+    <!--fotter-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                       
+                        <h5>Swarnandhra College Of Engineering And Technology</h5>
+                    </div>
+                    <div class="footer-col-2">
+                       
+                        <ul>
+                            <li>Call:</li>
+                            <li>E-mail:</li>
+                            <li>Website:www.swrnanhra.in</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <hr>
+                <p >Swarnandhra College Of Engineering And Technology , Seetharampuram , Narsapur , West Godavari(WG) , Andhra Pradesh-534280</p>
+            </div>
+        </div>
+    
+     <!--js for  menu bar-->
+      <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight="0px";
+
+            function menutoggle(){
+                if( MenuItems.style.maxHeight == "0px")
+                {
+                     MenuItems.style.maxHeight="200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </div>
+    </body>
+    
+    
